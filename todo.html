@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./todo-style.css"></script>
+</head>
+<body>
+    <h1 class="font-bold underline text-red-600">To Do List</h1>
+
+    <form id="newForm">
+        <input class type="text" id="item" placeholder="New item">
+        <button  class="text-green-600 hover:text-purple-500 basis-1/2 bg-slate-300 hover:bg-green-500/50" type="submit" id="create">Add</button>
+    </form>
+   
+    <hr>
+    <div id="todoItems">
+
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
+
+<!--Will be adding more tailwind css classes-->
